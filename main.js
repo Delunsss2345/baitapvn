@@ -27,7 +27,7 @@ function createSection(title, description, codeImg, img1, img2, img3) {
 }
 
 const sections = [
-  createSection("1. forEach()", "Duyệt qua từng phần tử trong mảng và thực hiện hành động.", "./images/foreach/foreach-code.png", "./images/foreach/foreach1.png", "./images/foreach/foreach2.png", "./images/foreach/foreach3.png"),
+  createSection("1. forEach()", "Duyệt qua từng phần tử trong mảng và thực hiện hành động.", "./images/foreach/forEach-code.png", "./images/foreach/foreach1.png", "./images/foreach/foreach2.png", "./images/foreach/foreach3.png"),
   createSection("2. map()", "Tạo ra mảng mới từ mảng gốc bằng cách biến đổi từng phần tử.", "./images/map/map-code.png", "./images/map/map1.png", "./images/map/map2.png", "./images/map/map3.png"),
   createSection("3. filter()", "Lọc ra các phần tử thỏa mãn điều kiện trong mảng.", "./images/filter/filter-code.png", "./images/filter/filter1.png", "./images/filter/filter2.png", "./images/filter/filter3.png"),
   createSection("4. reduce()", "Tổng hợp các phần tử của mảng thành một giá trị duy nhất.", "./images/reduce/reduce-code.png", "./images/reduce/reduce1.png", "./images/reduce/reduce2.png", "./images/reduce/reduce3.png"),
@@ -37,7 +37,7 @@ const sections = [
   createSection("8. every()", "Trả về true nếu tất cả các phần tử đều thỏa mãn điều kiện.", "./images/every/every-code.png", "./images/every/every1.png", "./images/every/every2.png", "./images/every/every3.png"),
   createSection("9. includes()", "Kiểm tra mảng có chứa giá trị cụ thể hay không.", "./images/includes2/includes-code.png", "./images/includes2/includes1.png", "./images/includes2/includes2.png", "./images/includes2/includes3.png"),
   createSection("10. indexOf()", "Tìm vị trí đầu tiên của phần tử trong mảng.", "./images/indexof/indexof-code.png", "./images/indexof/indexof1.png", "./images/indexof/indexof2.png", "./images/indexof/indexof3.png"),
-  createSection("11. lastIndexOf()", "Tìm vị trí cuối cùng của phần tử trong mảng.", "./images/lastindexof/lastindexof-code.png", "./images/lastindexof/lastindexof1.png", "./images/lastindexof/lastindexof2.png", "./images/lastindexof/lastindexof3.png"),
+  createSection("11. lastIndexOf()", "Tìm vị trí cuối cùng của phần tử trong mảng.", "./images/lastindexof/lastIndexof-code.png", "./images/lastindexof/lastindexof1.png", "./images/lastindexof/lastindexof2.png", "./images/lastindexof/lastindexof3.png"),
   createSection("12. concat()", "Nối nhiều mảng lại với nhau.", "./images/concat/concat-code.png", "./images/concat/concat1.png", "./images/concat/concat2.png", "./images/concat/concat3.png"),
   createSection("13. slice()", "Trích xuất một phần của mảng mà không làm thay đổi mảng gốc.", "./images/slice/slice-code.png", "./images/slice/slice1.png", "./images/slice/slice2.png", "./images/slice/slice3.png"),
   createSection("14. splice()", "Thêm hoặc xóa phần tử tại một vị trí cụ thể trong mảng.", "./images/splice/splice-code.png", "./images/splice/splice1.png", "./images/splice/splice2.png", "./images/splice/splice3.png"),
