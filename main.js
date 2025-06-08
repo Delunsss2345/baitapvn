@@ -27,7 +27,7 @@ function createSection(title, description, codeImg, img1, img2, img3) {
 }
 
 const sections = [
-  createSection("1. forEach()", "Duyệt qua từng phần tử trong mảng và thực hiện hành động.", "./images/forEach/foreach-code.png", "./images/foreach/foreach1.png", "./images/foreach/foreach2.png", "./images/foreach/foreach3.png"),
+  createSection("1. forEach()", "Duyệt qua từng phần tử trong mảng và thực hiện hành động.", "./images/foreach/foreach-code.png", "./images/foreach/foreach1.png", "./images/foreach/foreach2.png", "./images/foreach/foreach3.png"),
   createSection("2. map()", "Tạo ra mảng mới từ mảng gốc bằng cách biến đổi từng phần tử.", "./images/map/map-code.png", "./images/map/map1.png", "./images/map/map2.png", "./images/map/map3.png"),
   createSection("3. filter()", "Lọc ra các phần tử thỏa mãn điều kiện trong mảng.", "./images/filter/filter-code.png", "./images/filter/filter1.png", "./images/filter/filter2.png", "./images/filter/filter3.png"),
   createSection("4. reduce()", "Tổng hợp các phần tử của mảng thành một giá trị duy nhất.", "./images/reduce/reduce-code.png", "./images/reduce/reduce1.png", "./images/reduce/reduce2.png", "./images/reduce/reduce3.png"),
